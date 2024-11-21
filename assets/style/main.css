@@ -42,7 +42,7 @@ header .menu{
   display: flex;
   width: 100%;
   height: 10%;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   position: fixed;
   top: 0;
@@ -250,9 +250,8 @@ header .menu .links a:hover{
   border-radius: 1rem;
   background-color: var(--main-color);
   color: var(--second-bg-color);
-  padding: 2rem 1rem;
-  width: 300px;
-  height: 400px;
+  padding: 2rem;
+  width: 20rem;
 }
 
 .card i{
@@ -267,6 +266,7 @@ header .menu .links a:hover{
 .card p{
   font-size: .8rem;
   font-weight: 400;
+  text-align: justify;
 }
 
 .contact{
@@ -312,7 +312,6 @@ header .menu .links a:hover{
   color: var(--text-color);
   border: 1px solid var(--main-color);
   width: 300px;
-  
 }
 
 .contact form button{
@@ -333,6 +332,23 @@ header .menu .links a:hover{
     flex-direction: row-reverse;
   }
   
+  .container h1{
+    font-size: 4rem;
+  }
+
+  .container h2{
+    font-size: 3rem;
+  }
+
+  .container h3{
+    font-size: 2rem;
+  }
+
+  .container p{
+    font-size: 1.5rem;
+    word-break: break-all;
+
+  }
   .container .image img{
     width: 35vw;
 
@@ -340,6 +356,45 @@ header .menu .links a:hover{
 
   .container .about{
     width: 50vw;
+  }
+
+  header .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+  }
+
+  header .menu .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+
+    position: static;
+    
+    background: none;
+    backdrop-filter: none;
+    width: auto;
+    height: auto;
+    padding: 0;
+    border-left: none;
+    border-bottom: none;
+    border-bottom-left-radius: 0;
+  }
+  
+  header .menu i{
+    display: none;
+  }
+
+  .card{
+    width: 30rem;
   }
 
 }
