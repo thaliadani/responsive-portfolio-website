@@ -303,6 +303,10 @@ header .menu .links a:hover{
   width: 300px;
 }
 
+.contact form textarea{
+  resize: none;
+}
+
 .contact form button{
   color: var(--text-color);
   text-decoration: none;
