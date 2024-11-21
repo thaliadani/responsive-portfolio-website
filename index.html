@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="./assets/style/main.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <nav class="menu">
+      <h3>Olivia <span>Roberts</span></h3>
+      <ul class="links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <i class="bx bx-menu" id="open-menu"></i>
+      <i class="bx bx-x" id="close-menu"></i>
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <section class="info">
+
+      <div class="image">
+        <img src="./assets/img/image.jpg" alt="Olivia">
+      </div>
+
+      <div class="text">
+        <h1>Hi, It's <span>Olivia</span></h1>
+        <h2>I'm a <span>Frontend Developer</span></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod deserunt quam enim optio accusamus. Debitis
+          officiis aut maiores atque ut, delectus porro enim rerum reprehenderit. Accusantium recusandae debitis amet
+          consequuntur?</p>
+
+        <div class="social-media">
+          <a href="#"><i class="bx bxl-github"></i></a>
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+        </div>
+
+        <div class="buttons">
+          <button class="hire pressed">Hire</button>
+          <button class="contact">Contact</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+
+      <h2>About <span>Me</span></h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus debitis dolorem, harum nesciunt explicabo
+        repellendus nam enim maxime pariatur voluptas commodi quo accusamus porro blanditiis dolores itaque atque
+        architecto at.</p>
+
+      <button class="read-more pressed">Read More</button>
+
+    </section>
+
+    <section class="services">
+      <h2>Services</h2>
+
+      <div class="cards">
+
+        <div class="card">
+          <i class="bx bx-devices"></i>
+          <h3>Mobile App Development</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident necessitatibus corrupti eos molestias ea
+            laboriosam tempora dolores. Obcaecati soluta in minima provident? Tempora, quisquam voluptatibus ab nesciunt
+            architecto facere magnam.</p>
+        </div>
+
+        <div class="card">
+          <i class="bx bx-code"></i>
+          <h3>Frontend Development</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident necessitatibus corrupti eos molestias ea
+            laboriosam tempora dolores. Obcaecati soluta in minima provident? Tempora, quisquam voluptatibus ab nesciunt
+            architecto facere magnam.</p>
+        </div>
+
+        <div class="card">
+          <i class="bx bx-bracket"></i>
+          <h3>Backend Development</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident necessitatibus corrupti eos molestias ea
+            laboriosam tempora dolores. Obcaecati soluta in minima provident? Tempora, quisquam voluptatibus ab nesciunt
+            architecto facere magnam.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>Contact <span>Me</span></h2>
+
+      <form action="contact" method="post">
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email">
+        <input type="tel" name="phone" placeholder="Phone Number">
+        <input type="text" placeholder="Subject">
+
+        <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+
+        <button class="send pressed">Send</button>
+      </form>
+    </section>
+
+  </main>
+
+
+  <script src="./assets/src/script.js"></script>
+</body>
+
+</html>
