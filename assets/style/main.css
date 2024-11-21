@@ -292,18 +292,7 @@ header .menu .links a:hover{
   padding: 1rem 0;
 }
 
-.contact form input{
-  border-radius: .5rem;
-  padding: 1rem;
-  font-size: .8rem;
-  font-weight: 400;
-  background-color: var(--second-bg-color);
-  color: var(--text-color);
-  border: 1px solid var(--main-color);
-  width: 300px;
-}
-
-.contact form textarea{
+.contact form input, .contact form textarea{
   border-radius: .5rem;
   padding: 1rem;
   font-size: .8rem;
@@ -376,9 +365,7 @@ header .menu .links a:hover{
     align-items: center;
     font-size: 1rem;
     font-weight: 500;
-
     position: static;
-    
     background: none;
     backdrop-filter: none;
     width: auto;
@@ -395,6 +382,10 @@ header .menu .links a:hover{
 
   .card{
     width: 30rem;
+  }
+
+  .contact form input, .contact form textarea, .contact form button{
+    font-size: 1.2rem;
   }
 
 }
